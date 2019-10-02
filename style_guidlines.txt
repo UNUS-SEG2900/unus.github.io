@@ -1,0 +1,32 @@
+Overall Look and Feel of miRide
+===============================
+
+Our website will be lively and energentic mirroring the city feel. We hope to use bright colours,
+lively fonts, and interactive elements to engage the user.
+
+Colours
+========
+The colours we will use are colourful and eye catching to ensure the user feels engaged and excited
+while using the website:
+
+- #f26d00
+- white
+- lightgray
+- gray
+- black
+
+Iconography
+===========
+We will focus on using icons that have a 'flat' design, clean and matte finish to the whole site.
+
+Typography
+==========
+We will be using Montserrat for larger headings and Quicksand for smaller content sections of the site.
+
+Links
+=====
+Links will not be underlined, will turn orange once hovered over, and return to normal once clicked
+
+Buttons
+=======
+Buttons will be flat with sharp corners and the colour of the button will change when hovered over
