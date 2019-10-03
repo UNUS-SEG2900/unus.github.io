@@ -1,10 +1,11 @@
 Team Name: UNUS
 Group Members:
- - Marshall Steele: 300142928
- - Marianne Dery: 300142817
- - Vivienne Cruz: 300106639
- - Kevin Wang: 300115296
- - Yvan Cubahiro: 300116853
+ - Marshall Steele
+ - Marianne Dery
+ - Vivienne Cruz
+ - Kevin Wang
+ - Yvan Cubahiro
+ (Student numbers can be found in deliverable #1 text file)
 
 Project Name: myRide
 Project Description:
