@@ -1,0 +1,21 @@
+table {
+	width: 100%;
+}
+table, th, td{
+//font-family: 'Arial', sans-serif;
+padding: 15px;
+border-collapse: collapse;
+text-align: center;
+width: 35%;
+}
+h1{
+font-family: 'Montserrat', sans-serif;
+}
+.premium{
+	background-color: #ebc614;
+}
+.prem{
+	background-color: #eecf39;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;
