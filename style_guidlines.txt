@@ -15,6 +15,11 @@ while using the website:
 - gray
 - black
 
+Background Images:
+==================
+Images will apear static behind sections and a parellax effect will cause the new image to replace the
+other once scrolled down.
+
 Iconography
 ===========
 We will focus on using icons that have a 'flat' design, clean and matte finish to the whole site.
