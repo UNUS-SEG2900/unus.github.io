@@ -1,13 +1,14 @@
 Overall Look and Feel of miRide
 ===============================
 
-Our website will be lively and energentic mirroring the city feel. We hope to use bright colours,
+Our website will be lively and energetic mirroring the city feel. We hope to use bright colours,
 lively fonts, and interactive elements to engage the user.
 
 Colours
 ========
-The colours we will use are colourful and eye catching to ensure the user feels engaged and excited
-while using the website:
+The main colours we will use are shades of black and white to give the site a clean look.
+Our accent color, however, will be colourful and eye catching to ensure the user feels engaged and 
+excited while using the website:
 
 - #f26d00
 - white
@@ -15,18 +16,42 @@ while using the website:
 - gray
 - black
 
-Background Images:
-==================
-Images will apear static behind sections and a parellax effect will cause the new image to replace the
-other once scrolled down.
+Images:
+=======
+	Background images:
+	==================
+	Images will apear static behind sections and a parellax effect will cause the new image to replace the
+	other once scrolled down.
+	All background images will be in black and white, to follow the colour scheme.
+	All images will potray a city, roads or cars, to reflect our app's feature set.
+	
+	Profile images:
+	===============
+	The profile pictures used in the About Us page will be round to reflect how most profile pictures are
+	displayed.
+	Those pictures won't have to be in black and white, since profile pictures look more lively in color.
+
 
 Iconography
 ===========
 We will focus on using icons that have a 'flat' design, clean and matte finish to the whole site.
+For our app's icon, see the HTML provided.
 
 Typography
 ==========
 We will be using Montserrat for larger headings and Quicksand for smaller content sections of the site.
+
+	Headings
+	==
+	Headings won't be bold to follow the page's clean look.
+	Primary headings will have an orange bottom border whereas secondary headings will be smaller and have
+	the border to the right with a bit of padding between the border and the text
+	
+	Paragraphs
+	==========
+	Paragrphs' colors will be black or white, depending on the background.
+	However, important content such as the pricing will be displayed in orange to attract the user's attention.
+
 
 Links
 =====
@@ -35,3 +60,14 @@ Links will not be underlined, will turn orange once hovered over, and return to 
 Buttons
 =======
 Buttons will be flat with sharp corners and the colour of the button will change when hovered over
+Depending on the button's importance, it will be orange and change to grey when hovered over or grey and will
+turn orange when hovered over.
+For example, the Download button will be orange since we want people to download it. However, since the About us
+button isn't as important, it will be grey.
+
+Navigation
+==========
+A navigation menu will be displayed at the top of the page. It will be sticky, meaning it will stay in place
+as the user scrolls down the page. 
+The backgrounndo of the menu will be white. However, the active page will be shown in grey so the user can
+easily know where he is. Also, when hovered over, the links will become orange.
