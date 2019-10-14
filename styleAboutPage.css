@@ -16,11 +16,22 @@ h1, h2, h3{
 }
 
 h1{
+    width: 4.7em;;
+    color: black;
     margin: 2em;
+    border-bottom: 0.2em solid #f26d00;
+}
+
+p.unus{
+    margin: 0 6em;
+    font-size: 1.2em;
 }
 
 h2{
+    color: black;
     margin: 2em 4em;
+    border-left: 0.1em solid #f26d00;
+    padding: 0 0.5em;
 }
 
 img{
