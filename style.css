@@ -1,18 +1,25 @@
+body{
+	margin: 0;
+    font-size: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
 h1, h2, h3{
-	font-weight: none;
+	font-weight: normal;
 	font-family: 'Montserrat', sans-serif;
 }
 
 h1{
-    width: 4.7em;;
+    width: 8em;
     color: black;
-    margin: 2em;
+	margin: 0 2em 2em;
+	padding: 2em 0 0;
     border-bottom: 0.2em solid #f26d00;
 }
 
 h2{
     color: black;
-    margin: 2em 4em;
+    padding: 2em 4em;
     border-left: 0.1em solid #f26d00;
     padding: 0 0.5em;
 }
@@ -20,6 +27,98 @@ h2{
 h3{
 	color: #f26d00;
 }
+
+hr{
+	height: 1em;
+	border: none;
+	background-color: white;
+	margin: 0;
+}
+
+
+
+#aboutUs{
+	background-image: url("images/road1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	overflow: auto;
+	background-position: center center;
+}
+
+div.aboutus{
+	text-align: center;
+	padding: 0 0 7em 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+a.aboutus{
+	background-color: lightgray;
+	font-size: 1.5em;
+	padding: 0.5em 1em;
+	color: black;
+	width: 5.5em;
+}
+
+a.aboutus:hover{
+	background-color: #f26d00;
+	color: white;
+}
+
+
+
+#contactUs{
+	background-image: url("images/city2.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+form.contactus{
+	padding: 0 5em 6em 5em;
+	color: white;
+}
+
+input[type=text], select, textarea{
+	width: 100%;
+	padding: 1em;
+	border: 1px, solid, grey;
+	margin: 0.5em 0 1em 0;
+	resize: vertical;
+	font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+label{
+	font-size: 1.5em;
+}
+
+input[type=submit]{
+	padding: 0.5em 1em;
+	font-size: 1.2em;
+	background-color: #f26d00;
+	color: white;
+	border: none;
+}
+
+input[type=submit]:hover{
+	background-color: grey;
+	cursor: pointer;
+}
+
+span.important{
+	color: #f26d00;
+}
+
+p.aboutus{
+	color: white;
+	text-shadow: 2px 0 0 grey, -2px 0 0 grey, 0 2px 0 grey, 0 -2px 0 grey, 1px 1px grey, -1px -1px 0 grey, 1px -1px 0 grey, -1px 1px 0 grey;
+}
+
 
 
 table, th, td{

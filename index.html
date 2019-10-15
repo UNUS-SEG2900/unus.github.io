@@ -2,6 +2,7 @@
     <head>
         <title>miRide</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand&display=swap" rel="stylesheet">
     </head>
     <body>
 
@@ -144,29 +145,34 @@
 
 <!--CONTACT US PAGE-->
 
-        <div id="aboutUs">
-        <h1>Meet the team</h1>
-        <a href="aboutus.html">About us</a>
-        </div>
 
-        <div id="contactUs">
-        <h1>Contact us</h1>
-        <form>
-            <label for="fname">First Name</label>
+    <div id="aboutUs">
+    <h1 style="color:white;">Meet the team</h1>
+    <div class="aboutus"><a href="aboutus.html" class="aboutus">About us</a></div>
+    </div>
+
+    <hr/>
+
+    <div id="contactUs">
+        <h1 style="color: white;">Contact us<span class="important"> *</span></h1>
+        <form class="contacus">
+            <label for="fname">First Name<span class="important"> *</span></label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-            <label for="lname">Last Name</label>
+            <label for="lname">Last Name<span class="important"> *</span></label>
             <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-            <label for="email">E-mail</label>
+            <label for="email">E-mail<span class="important"> *</span></label>
             <input type="text" id="email" name="e-mail" placeholder="Your e-mail...">
 
-            <label for="subject">Subject</label>
+            <label for="subject">Subject<span class="important"> *</span></label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
             <input type="submit" value="Submit">
+
+            <p class="aboutus">*Necessary for an answer</p>
         </form>
-        </div>
+    </div>
 
     </body>
 </html>
