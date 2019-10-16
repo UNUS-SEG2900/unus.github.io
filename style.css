@@ -1,3 +1,48 @@
+#homePage{
+
+    background-image: url(images/homePageBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    background-position: bottom;
+}
+#topnav{
+    position:sticky;
+    padding-top: 10px;
+    padding: 25px;
+    text-align: right;  
+}
+
+#topnav a:hover{
+border: 1px solid white;
+}
+#topnav a{
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+}
+#presentation{
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 30%;
+    color: white;
+}
+#presentation1{
+    font-size: 180px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#presentation2{
+    font-size: 20px;
+}
+
 h1, h2, h3{
 	font-weight: none;
 	font-family: 'Montserrat', sans-serif;
