@@ -8,7 +8,7 @@
     height: 100%;
     width: 100%;
     position:absolute;
-    background-position: bottom;
+    background-position: fixed;
 }
 #topnav{
     position:sticky;
@@ -16,9 +16,17 @@
     padding: 25px;
     text-align: right;  
 }
+#logo{
+    left: 15px;
+    bottom: 0;
+    position: absolute;
+}
 
 #topnav a:hover{
-border: 1px solid white;
+
+background-color: white;
+color: black;
+border-radius: 5px;
 }
 #topnav a{
     text-align: right;
@@ -30,7 +38,7 @@ border: 1px solid white;
 #presentation{
     position: absolute;
     text-align: center;
-    top: 35%;
+    top: 40%;
     left: 30%;
     color: white;
 }
