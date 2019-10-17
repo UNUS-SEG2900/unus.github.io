@@ -1,3 +1,4 @@
+
 body{
 	margin: 0;
     font-size: 100%;
@@ -7,25 +8,6 @@ body{
 h1, h2, h3{
 	font-weight: normal;
 	font-family: 'Montserrat', sans-serif;
-}
-
-h1{
-    width: 8em;
-    color: black;
-	margin: 0 2em 2em;
-	padding: 2em 0 0;
-    border-bottom: 0.2em solid #f26d00;
-}
-
-h2{
-    color: black;
-    padding: 2em 4em;
-    border-left: 0.1em solid #f26d00;
-    padding: 0 0.5em;
-}
-
-h3{
-	color: #f26d00;
 }
 
 hr{
@@ -120,21 +102,120 @@ p.aboutus{
 }
 
 
+#homePage{
+    background-image: url(images/homePageBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    background-position: fixed;
+}
 
-table, th, td{
-padding: 15px;
+
+#topnav{
+    position:sticky;
+    padding-top: 10px;
+    padding: 25px;
+    text-align: right;
+    /*background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));*/
+    width: 98%;
+    top:0%;
+    left: 0%;
+    z-index: 1;
+}
+
+#logo{
+    left: 15px;
+    bottom: 0;
+    position: absolute;
+}
+
+#topnav a:hover{
+background-color: white;
+color: black;
+border-radius: 5px;
+}
+#topnav a{
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+    padding-right: 15px;
+}
+#presentation{
+    position:absolute;
+    text-align: center;
+    top: 40%;
+    left: 30%;
+    color: white;
+}
+#presentation1{
+    font-size: 180px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#presentation2{
+    font-size: 20px;
+}
+
+h1, h2, h3{
+	font-weight: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    width: 4.7em;;
+    color: black;
+    margin: 2em;
+    border-bottom: 0.2em solid #f26d00;
+}
+
+h2{
+    color: black;
+    margin: 2em 4em;
+    border-left: 0.1em solid #f26d00;
+    padding: 0 0.5em;
+}
+
+h3{
+	color: #f26d00;
+}
+
+table, #pricing th, #pricing td{
+padding: 14px;
 border-collapse: collapse;
 text-align: center;
-width: 35%;
-}
-.font{
-	font-family: Montserrat, sans-serif;
-}
-.premium{
-	background-color: #ebc614;
-}
-.prem{
-	background-color: #eecf39;
+width: 37%;
 }
 
-tr:nth-child(even){background-color: #f2f2f2;}
+#premium{
+	background-color: #f26d00;
+}
+#darkprem{
+	background-color: #ff7a0d;
+}
+
+#pricing tr:nth-child(even){background-color: #f2f2f2;}
+
+#upgrade a{
+	border: 1px solid #f26d00;
+  	border-radius: 25px;
+  	color: #f26d00;
+  	font-weight: bold;
+	font-size: 16px;
+  	padding: 13px 25px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+	font-family: "Arial", sans-serif;
+}
+#upgrade a:hover{
+  transition: all .25s ease;
+  color: white;
+  background-color: #f26d00;
+  //box-shadow: 3px 3px 1px grey;
+}
