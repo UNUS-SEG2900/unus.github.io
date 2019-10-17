@@ -14,7 +14,12 @@
     position:sticky;
     padding-top: 10px;
     padding: 25px;
-    text-align: right;  
+    text-align: right;
+    /*background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));*/
+    width: 98%;
+    top:0%;
+    left: 0%;
+    z-index: 1;
 }
 #logo{
     left: 15px;
@@ -23,7 +28,6 @@
 }
 
 #topnav a:hover{
-
 background-color: white;
 color: black;
 border-radius: 5px;
@@ -34,9 +38,10 @@ border-radius: 5px;
     color: white;
     font-size: 30px;
     padding: 15px;
+    padding-right: 15px;
 }
 #presentation{
-    position: absolute;
+    position:absolute;
     text-align: center;
     top: 40%;
     left: 30%;
