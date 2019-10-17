@@ -10,34 +10,63 @@
     <meta name="description" content="TO FIND">
     <meta name="author" content="UNUS">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand&display=swap" rel="stylesheet">
                 
 </head>
 
 <body>
 
+    <h1>TESTING</h1>
+
+    <h1>TESTING</h1>
+
+    <h1>TESTING</h1>
+
+    <h1>TESTING</h1>
+
+    <h1>TESTING</h1>
+
+    <h1>TESTING</h1>
+
+    <h1>TESTING</h1>
+
+    <h1>TESTING</h1>
+
+    <h1>TESTING</h1>
+
+    <h1>TESTING</h1>
+
+    <h1>TESTING</h1>
+
     <div id="aboutUs">
-        <h1>Meet the team</h1>
-        <a href="aboutus.html">About us</a>
+        <h1 style="color: white;">Meet the team</h1>
+        <div class="aboutus"><a href="aboutus.html" class="aboutus">About us</a></div>
     </div>
 
+    <hr/>
 
     <div id="contactUs">
-        <h1>Contact us</h1>
-        <form>
-            <label for="fname">First Name</label>
+        <h1 style="color: white;">Contact us</h1>
+        <form class="contactus">
+            <label for="fname">First Name<span class="important"> *</span></label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-            <label for="lname">Last Name</label>
+            <label for="lname">Last Name<span class="important"> *</span></label>
             <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-            <label for="email">E-mail</label>
+            <label for="email">E-mail<span class="important"> *</span></label>
             <input type="text" id="email" name="e-mail" placeholder="Your e-mail...">
 
-            <label for="subject">Subject</label>
+            <label for="subject">Subject<span class="important"> *</span></label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" action="#" onclick="formConfirm()">
+
+            <p class="aboutus">*Necessary for an answer</p>
         </form>
     </div>
+
+    <script src="formConfirm.js"></script>
 
 </body>
