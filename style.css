@@ -87,10 +87,10 @@ width: 37%;
 }
 
 #premium{
-	background-color: #ebc614;
+	background-color: #f26d00;
 }
 #darkprem{
-	background-color: #eecf39;
+	background-color: #ff7a0d;
 }
 
 #pricing tr:nth-child(even){background-color: #f2f2f2;}
@@ -100,16 +100,16 @@ width: 37%;
   	border-radius: 25px;
   	color: #f26d00;
   	font-weight: bold;
-	font-size: 18px;
+	font-size: 16px;
   	padding: 13px 25px;
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
-	margin-top: 15px;
+	font-family: "Arial", sans-serif;
 }
 #upgrade a:hover{
   transition: all .25s ease;
   color: white;
   background-color: #f26d00;
-  box-shadow: 3px 3px 1px grey;
+  //box-shadow: 3px 3px 1px grey;
 }
