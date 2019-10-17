@@ -105,6 +105,7 @@ width: 37%;
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
+	margin-left: 60px;
 	font-family: "Arial", sans-serif;
 }
 #upgrade a:hover{
