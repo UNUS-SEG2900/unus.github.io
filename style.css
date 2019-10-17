@@ -79,20 +79,18 @@ h3{
 	color: #f26d00;
 }
 
-table, th, td{
-padding: 15px;
+table, #pricing th, #pricing td{
+padding: 14px;
 border-collapse: collapse;
 text-align: center;
-width: 35%;
+width: 37%;
 }
-.font{
-	font-family: Montserrat, sans-serif;
-}
-.premium{
+
+#premium{
 	background-color: #ebc614;
 }
-.prem{
+#darkprem{
 	background-color: #eecf39;
 }
 
-tr:nth-child(even){background-color: #f2f2f2;}
+#pricing tr:nth-child(even){background-color: #f2f2f2;}
