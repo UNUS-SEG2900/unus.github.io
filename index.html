@@ -3,6 +3,7 @@
         <title>miRide</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="index.js"></script>
     </head>
     <body>
 
@@ -46,10 +47,10 @@
         <h1 class="Features-Section">Features</h1>
         </div>
 
-            <div class="dot-container">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
+            <div class="title-container">
+                <span class="title" onclick="currentSlide(1)">miService</span>
+                <span class="title" onclick="currentSlide(2)">miRoute</span>
+                <span class="title" onclick="currentSlide(3)">miCarpool</span>
             </div>
 
             <div class="slideshow-container">
@@ -70,7 +71,7 @@
                     Plan ahead for any trip using miRoute! Choose from a variety of ways<br />
                     to get around based on your preferences including:
                 </p>
-                <ul>
+                <ul class="ride-type">
                     <li>Public Transit</li>
                     <li>Ride Service<sup>*</sup></li>
                     <li>Taxi Cab</li>
@@ -100,7 +101,6 @@
         </div>
 
         </div>
-        <script src="index.js"></script>
 
 <!--STATS PAGE-->
 
@@ -151,7 +151,7 @@
 <body>
     <h1>Premium</h1>
         </div>
-             <div id="upgrade"><a href="upgrade" target="_blank">Upgrade Now</a>
+            <div id="upgrade"><a href="upgrade" target="_blank">Upgrade Now</a>
         </div>
         <div>
             <table id="pricing">
@@ -218,9 +218,6 @@
             <p class="aboutus">*Necessary for an answer</p>
         </form>
     </div>
-
-    <script src="index.js"></script>
-
 </body>
 
 </html>
