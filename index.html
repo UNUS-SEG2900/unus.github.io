@@ -3,12 +3,10 @@
         <title>miRide</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand&display=swap" rel="stylesheet">
-<<<<<<< HEAD
         <script type="text/javascript" src="index.js"></script>
-=======
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
->>>>>>> 4849aab34a7508cfba829639282bcd56c96884ac
     </head>
     <body>
 
@@ -16,10 +14,10 @@
 
         <div id="topnav">
             <img src="images/logo.png" id="logo" height="120px" width="120px">
-            <a href="features.html">Features</a>
-            <a href="pricing.html">Pricing</a>
-            <a href="aboutus.html">About</a>
-            <a href="contactus.html">Contact us</a>
+            <a href="#features">Features</a>
+            <a href="#price">Pricing</a>
+            <a href="#aboutUs">About</a>
+            <a href="#contactUs">Contact us</a>
         </div>
 
 
@@ -29,25 +27,25 @@
     <!-- <img src="images/logo.png" height="120" width="120">-->
     
             <div id="presentation">
-                <div id="presentation1">
+                <p id="presentation1">
                     miRide
-                </div>
+                </p>
             
-                <div id="presentation2">
-                <p>miRide is a mobile application made for anyone who travels<br>
+                <p id="presentation2">
+                miRide is a mobile application made for anyone who travels<br>
                 without a car.it compares a variety of ride services based on various filters<br>
-                such as prices and traveling distances to fit everyone's preferences</p>
-                </div>
+                such as prices and traveling distances to fit everyone's preferences
+                </p>
             
-                <div id="presentation3">
-                <a href="download"><img src="images/downloadImage.png" width="280px" height="185px;"></a>
+                <div>
+                <a href="download"><img id="presentation3" src="images/downloadImage.png" width="280px" height="185px;"></a>
                 </div>
             </div>
         </div>
 
 <!--FEATURES PAGE-->
 
-        <div style="background-color: dimgray;">
+        <div id="features"style="background-color: dimgray;">
         <div>
         <h1 class="Features-Section">Features</h1>
         </div>
@@ -111,11 +109,9 @@
 
 <div id = statspage>
     <!-- MI RIDE IN NUMBERS CODE-->
-       <h1 id= numheading >miRide in Numbers</h1> 
+    <h1 id= numheading >miRide in Numbers</h1> 
         
-    
-    <!-- STATS BOXES -->
-    
+        <!-- STATS BOXES -->
     
     <div class="rowStatsBoxes">
     
@@ -129,7 +125,7 @@
     
       <div class="columnStatsBoxes">
         <div class="statscard">
-          <p><i id= icons class="	fa fa-line-chart fa-2x"></i></p>
+          <p><i id= icons class="fa fa-line-chart fa-2x"></i></p>
           <h3>79% of users</h3>
           <p>noticed an increase in daily productivity when using miRide for a week</p>
         </div>
@@ -151,165 +147,174 @@
           <p>noticed a decrease in money spent on ride-sharing over the span of a month</p>
         </div>
       </div>
-    </div>
-    
       
-    
+    </div>
     
     <!-- USER RATINGS -->
     
     <div class = "containerUserRatings" >
-    <span class="headingUserRatings"> User Ratings</span>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star"></span>
-    <p>4.1 average based on 254 App Store reviews.</p>
-    <hr id = ratingsBreak >
     
-    <div class="row">
-      <div class="side">
-        <div>5 star</div>
-      </div>
-      <div class="middle">
-        <div class="bar-container">
-          <div class="bar-5"></div>
+        <div class="headingUserRatings">
+            User Ratings
         </div>
-      </div>
-      <div class="side right">
-        <div>150</div>
-      </div>
-      <div class="side">
-        <div>4 star</div>
-      </div>
-      <div class="middle">
-        <div class="bar-container">
-          <div class="bar-4"></div>
-        </div>
-      </div>
-      <div class="side right">
-        <div>63</div>
-      </div>
-      <div class="side">
-        <div>3 star</div>
-      </div>
-      <div class="middle">
-        <div class="bar-container">
-          <div class="bar-3"></div>
-        </div>
-      </div>
-      <div class="side right">
-        <div>15</div>
-      </div>
-      <div class="side">
-        <div>2 star</div>
-      </div>
-      <div class="middle">
-        <div class="bar-container">
-          <div class="bar-2"></div>
-        </div>
-      </div>
-      <div class="side right">
-        <div>6</div>
-      </div>
-      <div class="side">
-        <div>1 star</div>
-      </div>
-      <div class="middle">
-        <div class="bar-container">
-          <div class="bar-1"></div>
-        </div>
-      </div>
-      <div class="side right">
-        <div>20</div>
-      </div>
-    </div>
-    </div>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <p>4.1 average based on 254 App Store reviews.</p>
+        <hr id = ratingsBreak >
     
+        <div class="row">
+
+            <div class="side">
+                <div>5 star</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-5"></div>
+                </div>
+            </div>
+            <div class="side right">
+                <div>150</div>
+            </div>
+
+            <div class="side">
+              <div>4 star</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-4"></div>
+                </div>
+            </div>
+            <div class="side right">
+                <div>63</div>
+            </div>
+
+            <div class="side">
+                <div>3 star</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-3"></div>
+                </div>
+            </div>
+            <div class="side right">
+                <div>15</div>
+            </div>
+
+            <div class="side">
+              <div>2 star</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-2"></div>
+                </div>
+            </div>
+            <div class="side right">
+                <div>6</div>
+            </div>
+
+            <div class="side">
+                <div>1 star</div>
+            </div>
+            <div class="middle">
+                <div class="bar-container">
+                    <div class="bar-1"></div>
+                </div>
+            </div>
+            <div class="side right">
+                <div>20</div>
+            </div>
+      
+        </div> 
+    
+    </div>
     
     <!-- -->
     
     
     <!-- MIRIDE IN WORDS CODE-->
-                </p>
-            <h1 id= wordsheading >miRide in Words</h1>
-            <div class = "containerReviews">
-                    <img src="images/spencer.jpeg" alt= "pic1" style="width: 90px">
-                    <p><span><strong>Spencer Roberts</strong></span><br> CEO of Marigold INC.</p>
-                    <p>
-                        miRide will change the car-sharing app game. 
-                        It's so reliable and it's helped me get to where I need
-                        to be so many times! I tell everyone I know about this app!"
-                    </p>
-            </div>
-                
-            <div class = "containerReviews">
-                    <img src="images/gabriella.jpeg" alt= "pic2" style="width: 90px">
-                    <p><span><strong>Gabriella Tucker</strong></span> <br> University Student </p> 
-                    <p>
-                        Everyone needs to get this app! I'm a very busy person and 
-                        miRide helps me plan ahead and lets me be on time no matter
-                        the occasion!
-                    </p>
-            </div>
-                
-            <div class = "containerReviews">
-                    <img src="images/timothy.jpeg" alt= "pic3" style="width: 90px">
-                    <p><span><strong>Timothy Charles</strong></span> <br>Software Engineer</p> 
-                    <p>
-                        miRide is an essential app that everyone needs! Especially if you
-                        work or live in a busy city, commuting can be stressful. This app 
-                        helps you stay on time and plan your rides hours ahead.
-                    </p>
-            </div>
     
+    <h1 id= wordsheading >miRide in Words</h1>
+    <div class = "containerReviews">
+        <img src="images/spencer.jpeg" alt= "pic1" style="width: 90px">
+        <p><span><strong>Spencer Roberts</strong></span><br> CEO of Marigold INC.</p>
+        <p>
+            miRide will change the car-sharing app game. 
+            It's so reliable and it's helped me get to where I need
+            to be so many times! I tell everyone I know about this app!"
+        </p>
     </div>
+                
+    <div class = "containerReviews morepadding">
+        <img src="images/gabriella.jpeg" alt= "pic2" style="width: 90px">
+        <p><span><strong>Gabriella Tucker</strong></span> <br> University Student </p> 
+        <p>
+            Everyone needs to get this app! I'm a very busy person and 
+            miRide helps me plan ahead and lets me be on time no matter
+            the occasion!
+        </p>
+    </div>
+                
+    <div class = "containerReviews">
+        <img src="images/timothy.jpeg" alt= "pic3" style="width: 90px">
+        <p><span><strong>Timothy Charles</strong></span> <br>Software Engineer</p> 
+        <p>
+            miRide is an essential app that everyone needs! Especially if you
+            work or live in a busy city, commuting can be stressful. This app 
+            helps you stay on time and plan your rides hours ahead.
+        </p>
+    </div>
+
+</div>
 
 <!--PRICING PAGE-->
 
-<body>
+<div id="price">
     <h1>Premium</h1>
-        </div>
-            <div id="upgrade"><a href="upgrade" target="_blank">Upgrade Now</a>
-        </div>
-        <div>
-            <table id="pricing">
-                <tr>
-                    <th></th>
-                    <th>Free</th>
-                    <th id="darkprem">Premium ($##/month)</th>
-                </tr>
-                <tr>
-                    <td>Find best price for your trip!</td>
-                    <td>&#10003</td>
-                    <td id="premium">&#10004</td>
-                </tr>
-                <tr>
-                    <td>Find shortest waiting time!</td>
-                    <td>&#10003</td>
-                    <td id="darkprem">&#10004</td>
-                </tr>
-                <tr>
-                    <td>Plan your trip ahead with miRoute!</td>
-                    <td>&#10007</td>
-                    <td id="premium">&#10004</td>
-                </tr>
-                <tr>
-                    <td>Match up with drivers using miCarpool!</td>
-                    <td>&#10007</td>
-                    <td id="darkprem">&#10004</td>
-                </tr>
-                <tr>
-                    <td>Always match with best rated drivers!</td>
-                    <td>&#10007</td>
-                    <td id="premium">&#10004</td>
-                </tr>
-            </table>
+    <div id="upgrade">
+        <a href="upgrade" target="_blank">Upgrade Now</a>
+    </div>
+    <div>
+        <table id="pricing">
+            <tr>
+                <th></th>
+                <th>Free</th>
+                <th id="darkprem">Premium ($##/month)</th>
+            </tr>
+            <tr>
+                <td>Find best price for your trip!</td>
+                <td>&#10003</td>
+                <td id="premium">&#10004</td>
+            </tr>
+            <tr>
+                <td>Find shortest waiting time!</td>
+                <td>&#10003</td>
+                <td id="darkprem">&#10004</td>
+            </tr>
+            <tr>
+                <td>Plan your trip ahead with miRoute!</td>
+                <td>&#10007</td>
+                <td id="premium">&#10004</td>
+            </tr>
+            <tr>
+                <td>Match up with drivers using miCarpool!</td>
+                <td>&#10007</td>
+                <td id="darkprem">&#10004</td>
+            </tr>
+            <tr>
+                <td>Always match with best rated drivers!</td>
+                <td>&#10007</td>
+                <td id="premium">&#10004</td>
+            </tr>
+        </table>
         <p>You may cancel your subcription anytime</p>
-        </div>
+    </div>
+</div>
 
 <!--CONTACT US PAGE-->
+<div>
 
     <div id="aboutUs">
         <h1 style="color: white;">Meet the team</h1>
@@ -338,6 +343,9 @@
             <p class="aboutus">*Necessary for an answer</p>
         </form>
     </div>
+
+</div>
+
 </body>
 
 </html>
