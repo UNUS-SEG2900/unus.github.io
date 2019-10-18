@@ -4,41 +4,65 @@
     </head>
 
     <body>
-        <h1>Features</h1>
+        <div style="background-color: dimgray;">
+        <div>
+        <h1 style="color: white">Features</h1>
+        </div>
 
-        <h2>miService</h2>
-        <p>
-            Find the right service for the right price every time with miService!<br />
-            Using our custom algorithm, miRide scans the ride service apps<br /> 
-            that you already have downloaded on your phone to ensure the best<br />
-            price and the shortest wait times. Flipping through apps is a thing<br />
-            of the past thanks to miRide
-        </p>
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
 
-        <h2>miRoute</h2>
-        <p>
-            Plan ahead for any trip using miRoute! Choose from a variety of ways<br />
-            to get around based on your preferences including:
-        </p>
-        <ul>
-            <li>Public Transit</li>
-            <li>Ride Service<sup>*</sup></li>
-            <li>Taxi Cab</li>
-            <li>Bike Service</li>
-        </ul>
-        <p>
-            <small>
-                <sup>*</sup>Real time rate estimates based on real data
-            </small>
-        </p>
+            <div class="slideshow-container">
+            <div class="Slides">
+                <h2 class="feat-title" >miService</h2>
+                <p class="feat-desc">
+                    Find the right service for the right price every time with miService!<br />
+                    Using our custom algorithm, miRide scans the ride service apps<br /> 
+                    that you already have downloaded on your phone to ensure the best<br />
+                    price and the shortest wait times. Flipping through apps is a thing<br />
+                    of the past thanks to miRide
+                </p>
+            </div>
 
-        <h2>miCarpool</h2>
-        <p>
-            Whether you want to save the planet or save your wallet, miCarpool<br />
-            is the perfect solution. By connecting drivers to passengers, miCarpool<br />
-            provides an easy way to share a ride with your peers. Just post where<br />
-            you're going, when you're leaving, and how much room you have to get<br />
-            matched up with the perfect passengers.
-        </p>
+            <div class="Slides">
+                <h2 class="feat-title" >miRoute</h2>
+                <p class="feat-desc">
+                    Plan ahead for any trip using miRoute! Choose from a variety of ways<br />
+                    to get around based on your preferences including:
+                </p>
+                <ul>
+                    <li>Public Transit</li>
+                    <li>Ride Service<sup>*</sup></li>
+                    <li>Taxi Cab</li>
+                    <li>Bike Service</li>
+                </ul>
+                <p class="feat-desc">
+                    <small>
+                        <sup>*</sup>Real time rate estimates based on real data
+                    </small>
+                </p>
+            </div>
+
+            <div class="Slides">
+                <h2 class="feat-title" >miCarpool</h2>
+                <p class="feat-desc">
+                    Whether you want to save the planet or save your wallet, miCarpool<br />
+                    is the perfect solution. By connecting drivers to passengers, miCarpool<br />
+                    provides an easy way to share a ride with your peers. Just post where<br />
+                    you're going, when you're leaving, and how much room you have to get<br />
+                    matched up with the perfect passengers.
+                </p>
+            </div>
+
+            <a class="prev-slide" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next-slide" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+
+        </div>
+        <script src="index.js"></script>
     </body>
 </html>

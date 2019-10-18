@@ -14,6 +14,7 @@ excited while using the website:
 - white
 - lightgray
 - gray
+- dimgray
 - black
 
 Images:
