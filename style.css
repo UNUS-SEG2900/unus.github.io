@@ -311,3 +311,199 @@ p.aboutus{
 	text-shadow: 2px 0 0 grey, -2px 0 0 grey, 0 2px 0 grey, 0 -2px 0 grey, 1px 1px grey, -1px -1px 0 grey, 1px -1px 0 grey, -1px 1px 0 grey;
 }
 
+#statspage{
+	background-image: url(images/citypic.jpeg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#numheading{
+	width: 9.9em;
+	color: white;
+}
+
+#wordsheading{
+	width: 8.4em;
+	color: white;
+}
+
+#ratingsBreak{
+    style="border:3px solid #f26d00";
+}
+
+.containerReviews {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    border: 2px solid #ccc;
+   /* padding: 16px;  16 px */
+    margin-left: 2em;
+	margin-right: 3em;
+	margin-bottom: 2em;
+    float: left;
+    width: 27%;
+    padding: 12px;
+  }
+  
+ .containerReviews::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+  
+.containerReviews img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+.containerReviews span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+@media (max-width: 500px) {
+    .containerReviews {
+        text-align: center;
+    }
+    .containerReviews img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .containerUserRatings{
+    border: 2px solid #ccc;
+    background-color: #eee;
+    /*border-radius: 5px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+   /* padding: 16px;  16 px */
+    margin-left: 2em;
+    margin-right: 3em;
+    margin-bottom: 1em;
+    float: none;
+    width: 95%;
+    padding: 12px;
+  }
+  
+  .headingUserRatings {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-right: 25px;
+  }
+  
+  .fa {
+    font-size: 25px;
+  }
+  
+  .checked {
+    color: #f26d00;
+  }
+  
+  /* Three column layout */
+  .side {
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+  }
+  
+  .middle {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+  }
+  
+  /* Place text to the right */
+  .right {
+    text-align: right;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The bar container */
+  .bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: left;
+    color: white;
+  }
+  
+  /* Individual bars */
+  .bar-5 { width: 60%; height: 18px; background-color: #f26d00;}
+  .bar-4 {width: 30%; height: 18px; background-color: grey;}
+  .bar-3 {width: 8%; height: 18px; background-color: #f26d00;}
+  .bar-2 {width: 4%; height: 18px; background-color: grey;}
+  .bar-1 {width: 12%; height: 18px; background-color: #f26d00;}
+  
+  /* Responsive layout - make the columns stack on top of each other instead of next to each other */
+  @media (max-width: 400px) {
+    .side, .middle {
+      width: 100%;
+    }
+    /* Hide the right column on small screens */
+    .right {
+      display: none;
+    }
+  }
+
+/*stats boxes*/
+.* {
+    box-sizing: border-box;
+  }
+  
+  /* Float four columns side by side */
+  .columnStatsBoxes {
+    float: left;
+    margin-left: 2em;
+    width: 22%;
+    padding: 0 5px;
+  }
+  
+  .rowStatsBoxes {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .rowStatsBoxes:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .columnStatsBoxes {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .statscard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    border: 2px solid #ccc;
+    padding: 16px;
+    text-align: justify;
+    background-color: #eee;
+    color: black;
+    margin-bottom: 2em;
+  }
+
+  #icons {
+    color: #f26d00;
+  }
+  
+  .fa {font-size:50px;}
+
