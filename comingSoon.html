@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>miRide</title>
+        <link rel="stylesheet" type="text/css" href="styleComingSoon.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand&display=swap" rel="stylesheet">
+        <script language="Javascript" type="text/javascript" src="index.js"></script>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+
+<body>
+
+    <div class="bgimg">
+        <a class="logo" href="index.html"><img src="images/logo.png" id="logo" height="120px" width="120px"></a>
+        <div class="presentation">
+            <h1>Coming soon</h1>
+            <hr class="comingSoon" />
+            <p id="countDown"></p>
+        </div>
+    </div>
+
+    <script>
+        
+        var countDownDate = new Date("Dec 4, 2019 21:59:59").getTime();
+
+
+        var x = setInterval(function() {
+
+        var now = new Date().getTime();
+
+        var distance = countDownDate - now;
+    
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+        document.getElementById("countDown").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+    
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("countDown").innerHTML = "Have a nice winter vacation!";
+        }
+        }, 1000);
+    </script>
+
+</body>
+
+</html>
