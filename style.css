@@ -661,32 +661,35 @@ table, #pricing th, #pricing td{
 	}
 	
 	#premium{
-		background-color: #f26d00;
+		background-color: #ff7a0d;
 	}
 	#darkprem{
-		background-color: #ff7a0d;
+		background-color: #f26d00;
 	}
 	
 	#pricing tr:nth-child(even){background-color: #f2f2f2;}
 	
 	#upgrade a{
-		border: 1px solid #f26d00;
-		  border-radius: 25px;
-		  color: #f26d00;
-		  font-weight: bold;
-		font-size: 1em;
-		  padding: 0.8em 1.6em;
-		  text-align: center;
-		  text-decoration: none;
-		  display: inline-block;
-		margin-left: 4em;
-		font-family: "Arial", sans-serif;
+	  border: 1px solid #f26d00;
+	  border-radius: 25px;
+	  color: #f26d00;
+	  font-weight: bold;
+	  font-size: 1em;
+	  padding: 0.8em 1.6em;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  margin-left: 4em;
+	  font-family: "Arial", sans-serif;
 	}
 	#upgrade a:hover{
 	  transition: all .25s ease;
 	  color: white;
 	  background-color: #f26d00;
 	  box-shadow: 3px 3px 1px grey;
+	}
+	#cancel{
+	  margin-left: 4.8em;
 	}
 
 /*About us*/
