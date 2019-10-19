@@ -11,7 +11,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="styleAboutPage.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand&display=swap" rel="stylesheet">
+    <script language="Javascript" type="text/javascript" src="index.js"></script>
                 
 </head>
 
@@ -23,6 +25,19 @@
         <a href="index.html#price">Pricing</a>
         <a href="aboutus.html">About</a>
         <a href="index.html#contactUs">Contact us</a>
+    </div>
+
+    <div id="dropdown">
+        <a class="logo" href="index.html"><img src="images/logo.png" id="logo" height="120px" width="120px"></a>
+        <ul id="myLinks">
+            <li><a onclick="hide()" href="#features">Features</a></li>
+            <li><a onclick="hide()" href="#price">Price</a></li>
+            <li><a onclick="hide()" href="#aboutUs">About</a></li>
+            <li><a onclick="hide()" href="#contactUs">Contact</a></li> 
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a> 
     </div>
 
     <h1 style="margin-top: 4em;">About us</h1>

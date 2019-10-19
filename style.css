@@ -116,7 +116,7 @@ h3{
 
   }
 
-  #mylinks{
+  #myLinks{
     display: none;
   }
 
@@ -135,23 +135,23 @@ h3{
     margin-top: -0.5em;
   }
 
-  #mylinks{
+  #myLinks{
     list-style-type: none;
     padding-left: 1em;
     margin-bottom: 0;
   }
 
-  #mylinks li{
+  #myLinks li{
     padding: 0.25em 0;
     color: white;
   }
 
-  #mylinks li:hover{
+  #myLinks li:hover{
     background-color: white;
     color: black;
   }
 
-  #mylinks a{
+  #myLinks a{
     color: inherit;
     display: block;
   }
