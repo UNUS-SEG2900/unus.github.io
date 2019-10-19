@@ -7,6 +7,7 @@ body{
     margin: 0;
     font-size: 100%;
     font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3{
@@ -107,11 +108,12 @@ div.person{
     overflow: auto;
 }
 
-div.float{
+.name, .image{
     float: left;
+    clear: left;
 }
 
-div.description{
+.specialties, .description{
     padding-left: 10em;
     font-size: 1.2em;
 }
@@ -125,4 +127,76 @@ span.specialty{
 
 span.specialty:hover{
     color: #f26d00;
+}
+
+@media screen and (max-width: 650px){
+	h1{
+        margin: 0.5em;
+    }
+
+    h2{
+        margin: 1.5em;
+    }
+
+    p.unus{
+        margin: 1.5em;
+    }
+
+    div.person{
+        margin: 2em 0;
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .name{
+        float: none;
+        clear: none;
+        padding-left: 9em;
+    }
+
+    .specialties{
+        padding-left: 9em;
+    }
+
+    span.specialty{
+        font-size: 0.8em;
+    }
+
+    .description{
+        clear: both;
+        padding: 0.5em 1em;
+    }
+}
+
+@media screen and (max-width: 515px){
+    .name{
+        float: none;
+        clear: both;
+        padding-left: 0;
+        padding-top: 0.5em;
+        text-align: center;
+    }
+    .specialties{
+        padding-top: 0;
+    }
+
+    .image{
+        text-align: center;
+        float: none;
+        clear: both;
+    }
+
+    .specialties{
+        float:none;
+        clear: both;
+        padding-left: 1em;
+        padding-top: 0.5em;
+        font-size: 1em;
+    }
+
+    .description{
+        padding: 0em 0.25em 0em 0.25em;
+        font-size: 1em;
+    }
 }
