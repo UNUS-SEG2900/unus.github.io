@@ -3,17 +3,17 @@
         <title>miRide</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand&display=swap" rel="stylesheet">
-        <script type="text/javascript" src="index.js"></script>
+        <script language="Javascript" type="text/javascript" src="index.js"></script>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     </head>
-    <body onload="inititalizeFeature();">
+    <body onload="inititalizeFeature(); startSetTimeoutAnimation()">
 
 <!--TOP NAV-->
 
         <div id="topnav">
-            <img src="images/logo.png" id="logo" height="120px" width="120px">
+            <a class="logo" href="index.html"><img src="images/logo.png" id="logo" height="120px" width="120px"></a>
             <a href="#features">Features</a>
             <a href="#price">Pricing</a>
             <a href="#aboutUs">About</a>
@@ -24,16 +24,14 @@
 <!--HOME PAGE-->
         <div id="homePage">
     
-    <!-- <img src="images/logo.png" height="120" width="120">-->
-    
             <div id="presentation">
                 <p id="presentation1">
                     miRide
                 </p>
             
                 <p id="presentation2">
-                miRide is a mobile application made for anyone who travels<br>
-                without a car.it compares a variety of ride services based on various filters<br>
+                miRide is a mobile application made for anyone who travels
+                without a car. It compares a variety of ride services based on various filters
                 such as prices and traveling distances to fit everyone's preferences
                 </p>
             
@@ -41,6 +39,11 @@
                 <a href="download"><img id="presentation3" src="images/downloadImage.png" width="280px" height="185px;"></a>
                 </div>
             </div>
+
+            <div id="animation" style="text-align: center;">
+                    <a href="#features"><i class="arrow down"></i></a>
+            </div>
+
         </div>
 
 <!--FEATURES PAGE-->
@@ -238,6 +241,8 @@
     <!-- MIRIDE IN WORDS CODE-->
     
     <h1 id= wordsheading >miRide in Words</h1>
+
+    <div class="reviews">
     <div class = "containerReviews">
         <img src="images/spencer.jpeg" alt= "pic1" style="width: 90px">
         <p><span><strong>Spencer Roberts</strong></span><br> CEO of Marigold INC.</p>
@@ -266,6 +271,7 @@
             work or live in a busy city, commuting can be stressful. This app 
             helps you stay on time and plan your rides hours ahead.
         </p>
+    </div>
     </div>
 
 </div>
@@ -318,14 +324,14 @@
 <div>
 
     <div id="aboutUs">
-        <h1 style="color: white;">Meet the team</h1>
+        <h1 class="about">Meet the team</h1>
         <div class="aboutus"><a href="aboutus.html" class="aboutus">About us</a></div>
     </div>
 
     <hr/>
 
     <div id="contactUs">
-        <h1 style="color: white;">Contact us</h1>
+        <h1 class="contact">Contact us</h1>
         <form class="contactus">
             <label for="fname">First Name<span class="important"> *</span></label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">

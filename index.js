@@ -30,3 +30,19 @@ function showSlides(n) {
 function formConfirm(){
     window.alert("Thank you for your input!");
 }
+
+function startSetTimeoutAnimation() {
+  const refreshRate = 1000 / 8;
+  const maxYPosition = 5;
+  let object = document.getElementById("animation");
+  let speedY = 1;
+  let positionY = 0; 
+
+  window.setInterval(() => {
+    positionY = positionY + speedY;
+    if (positionY > maxYPosition || positionY < 1) {
+      speedY = speedY * (-1);
+    }
+    object.style.bottom = positionY + 'px';
+  }, refreshRate);
+}
