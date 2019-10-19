@@ -17,7 +17,20 @@
             <a href="#features">Features</a>
             <a href="#price">Pricing</a>
             <a href="#aboutUs">About</a>
-            <a href="#contactUs">Contact us</a>
+            <a href="#contactUs">Contact</a>
+        </div>
+
+        <div id="dropdown">
+            <a class="logo" href="index.html"><img src="images/logo.png" id="logo" height="120px" width="120px"></a>
+            <ul id="myLinks">
+                <li><a onclick="hide()" href="#features">Features</a></li>
+                <li><a onclick="hide()" href="#price">Price</a></li>
+                <li><a onclick="hide()" href="#aboutUs">About</a></li>
+                <li><a onclick="hide()" href="#contactUs">Contact</a></li> 
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a> 
         </div>
 
 
@@ -113,165 +126,172 @@
 
 <div id = statspage>
     <!-- MI RIDE IN NUMBERS CODE-->
-    <h1 id= numheading >miRide in Numbers</h1> 
+
+    <div id="numbers">
+
+        <h1 id= numheading >miRide in Numbers</h1> 
         
         <!-- STATS BOXES -->
     
-    <div class="rowStatsBoxes">
+        <div class="rowStatsBoxes">
     
-      <div class="columnStatsBoxes">
-        <div class="statscard">
-          <p><i id= icons class="far fa-comments fa-2x"></i></p>
-          <h3>#1 Best New App in 2019</h3>
-          <p>Voted by WIRED Magazine</p>
-        </div>
-      </div>
-    
-      <div class="columnStatsBoxes">
-        <div class="statscard">
-          <p><i id= icons class="fa fa-line-chart fa-2x"></i></p>
-          <h3>79% of users</h3>
-          <p>noticed an increase in daily productivity when using miRide for a week</p>
-        </div>
-      </div>
-    
-      <div class="columnStatsBoxes">
-        <div class="statscard">
-          <p><i id= icons class="far fa-clock fa-2x"></i></p>
-          <h3>95% of users</h3>
-          <p>living in a metropolitan area agreed that miRide was much more time-efficient than
-            using other ride-sharing apps</p>
-        </div>
-      </div>
-    
-      <div class="columnStatsBoxes">
-        <div class="statscard">
-          <p><i id= icons class="fa fa-car fa-2x"></i></p>
-          <h3>84% of users</h3>
-          <p>noticed a decrease in money spent on ride-sharing over the span of a month</p>
-        </div>
-      </div>
-      
-    </div>
-    
-    <!-- USER RATINGS -->
-    
-    <div class = "containerUserRatings" >
-    
-        <div class="headingUserRatings">
-            User Ratings
-        </div>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star"></span>
-        <p>4.1 average based on 254 App Store reviews.</p>
-        <hr id = ratingsBreak >
-    
-        <div class="row">
-
-            <div class="side">
-                <div>5 star</div>
-            </div>
-            <div class="middle">
-                <div class="bar-container">
-                    <div class="bar-5"></div>
+            <div class="columnStatsBoxes">
+                <div class="statscard">
+                    <p><i id= icons class="far fa-comments fa-2x"></i></p>
+                    <h3>#1 Best New App in 2019</h3>
+                    <p>Voted by WIRED Magazine</p>
                 </div>
             </div>
-            <div class="side right">
-                <div>150</div>
-            </div>
 
-            <div class="side">
-              <div>4 star</div>
-            </div>
-            <div class="middle">
-                <div class="bar-container">
-                    <div class="bar-4"></div>
+            <div class="columnStatsBoxes">
+                <div class="statscard">
+                    <p><i id= icons class="fa fa-line-chart fa-2x"></i></p>
+                <h3>79% of users</h3>
+                <p>noticed an increase in daily productivity when using miRide for a week</p>
                 </div>
             </div>
-            <div class="side right">
-                <div>63</div>
-            </div>
-
-            <div class="side">
-                <div>3 star</div>
-            </div>
-            <div class="middle">
-                <div class="bar-container">
-                    <div class="bar-3"></div>
+    
+            <div class="columnStatsBoxes">
+                <div class="statscard">
+                    <p><i id= icons class="far fa-clock fa-2x"></i></p>
+                    <h3>95% of users</h3>
+                    <p>living in a metropolitan area agreed that miRide was much more time-efficient than
+                        using other ride-sharing apps</p>
                 </div>
             </div>
-            <div class="side right">
-                <div>15</div>
-            </div>
-
-            <div class="side">
-              <div>2 star</div>
-            </div>
-            <div class="middle">
-                <div class="bar-container">
-                    <div class="bar-2"></div>
+    
+            <div class="columnStatsBoxes">
+                <div class="statscard">
+                    <p><i id= icons class="fa fa-car fa-2x"></i></p>
+                    <h3>84% of users</h3>
+                    <p>noticed a decrease in money spent on ride-sharing over the span of a month</p>
                 </div>
-            </div>
-            <div class="side right">
-                <div>6</div>
-            </div>
-
-            <div class="side">
-                <div>1 star</div>
-            </div>
-            <div class="middle">
-                <div class="bar-container">
-                    <div class="bar-1"></div>
-                </div>
-            </div>
-            <div class="side right">
-                <div>20</div>
             </div>
       
-        </div> 
+        </div>
+    
+        <!-- USER RATINGS -->
+    
+        <div class = "containerUserRatings" >
+    
+            <div class="headingUserRatings">
+                User Ratings
+            </div>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p>4.1 average based on 254 App Store reviews.</p>
+            <hr id = ratingsBreak >
+    
+            <div class="row">
+
+                <div class="side">
+                    <div>5 star</div>
+                </div>
+                <div class="middle">
+                    <div class="bar-container">
+                        <div class="bar-5"></div>
+                    </div>
+                </div>
+                <div class="side right">
+                    <div>150</div>
+                </div>
+
+                <div class="side">
+                    <div>4 star</div>
+                </div>
+                <div class="middle">
+                    <div class="bar-container">
+                        <div class="bar-4"></div>
+                    </div>
+                </div>
+                <div class="side right">
+                    <div>63</div>
+                </div>
+
+                <div class="side">
+                    <div>3 star</div>
+                </div>
+                <div class="middle">
+                    <div class="bar-container">
+                        <div class="bar-3"></div>
+                    </div>
+                </div>
+                <div class="side right">
+                    <div>15</div>
+                </div>
+
+                <div class="side">
+                    <div>2 star</div>
+                </div>
+                <div class="middle">
+                    <div class="bar-container">
+                        <div class="bar-2"></div>
+                    </div>
+                </div>
+                <div class="side right">
+                    <div>6</div>
+                </div>
+
+                <div class="side">
+                    <div>1 star</div>
+                </div>
+                <div class="middle">
+                    <div class="bar-container">
+                        <div class="bar-1"></div>
+                    </div>
+                </div>
+                <div class="side right">
+                    <div>20</div>
+                </div>
+      
+            </div> 
+    
+        </div>
     
     </div>
-    
-    <!-- -->
-    
-    
+
+
     <!-- MIRIDE IN WORDS CODE-->
-    
-    <h1 id= wordsheading >miRide in Words</h1>
 
-    <div class="reviews">
-    <div class = "containerReviews">
-        <img src="images/spencer.jpeg" alt= "pic1" style="width: 90px">
-        <p><span><strong>Spencer Roberts</strong></span><br> CEO of Marigold INC.</p>
-        <p>
-            miRide will change the car-sharing app game. 
-            It's so reliable and it's helped me get to where I need
-            to be so many times! I tell everyone I know about this app!"
-        </p>
-    </div>
+    <div id="words">
+    
+        <h1 id= wordsheading >miRide in Words</h1>
+
+        <div class="reviews">
+            <div class = "containerReviews">
+                <img src="images/spencer.jpeg" alt= "pic1" style="width: 90px">
+                <p><span><strong>Spencer Roberts</strong></span><br> CEO of Marigold INC.</p>
+                <p>
+                    miRide will change the car-sharing app game. 
+                    It's so reliable and it's helped me get to where I need
+                    to be so many times! I tell everyone I know about this app!"
+                </p>
+            </div>
                 
-    <div class = "containerReviews morepadding">
-        <img src="images/gabriella.jpeg" alt= "pic2" style="width: 90px">
-        <p><span><strong>Gabriella Tucker</strong></span> <br> University Student </p> 
-        <p>
-            Everyone needs to get this app! I'm a very busy person and 
-            miRide helps me plan ahead and lets me be on time no matter
-            the occasion!
-        </p>
-    </div>
-                
-    <div class = "containerReviews">
-        <img src="images/timothy.jpeg" alt= "pic3" style="width: 90px">
-        <p><span><strong>Timothy Charles</strong></span> <br>Software Engineer</p> 
-        <p>
-            miRide is an essential app that everyone needs! Especially if you
-            work or live in a busy city, commuting can be stressful. This app 
-            helps you stay on time and plan your rides hours ahead.
-        </p>
-    </div>
+            <div class = "containerReviews morepadding">
+                <img src="images/gabriella.jpeg" alt= "pic2" style="width: 90px">
+                <p><span><strong>Gabriella Tucker</strong></span> <br> University Student </p> 
+                <p>
+                    Everyone needs to get this app! I'm a very busy person and 
+                    miRide helps me plan ahead and lets me be on time no matter
+                    the occasion!
+                </p>
+            </div>
+
+            <div class = "containerReviews">
+                <img src="images/timothy.jpeg" alt= "pic3" style="width: 90px">
+                <p><span><strong>Timothy Charles</strong></span> <br>Software Engineer</p> 
+                <p>
+                    miRide is an essential app that everyone needs! Especially if you
+                    work or live in a busy city, commuting can be stressful. This app 
+                    helps you stay on time and plan your rides hours ahead.
+                </p>
+            </div>
+        </div>
+
     </div>
 
 </div>

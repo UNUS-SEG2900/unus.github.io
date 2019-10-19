@@ -44,14 +44,6 @@ h3{
 	color: #f26d00;
 }
 
-@media screen and (max-width: 450px){
-	h1{
-		font-size: 1.5em;
-		padding-top: 4em;
-		margin-left: 1em;
-	}
-}
-
 /*Top navigation menu*/
 
 
@@ -80,16 +72,20 @@ h3{
 }
 
 #topnav a{
-    text-align: right;
-    text-decoration: none;
-    color: white;
-    font-size: 1.75em;
+  text-align: right;
+  text-decoration: none;
+  color: white;
+  font-size: 1.75em;
 	padding: 1em;
 	transition: all 0.5s;
 }
 
 #topnav a.logo:hover{
 	background-color: initial;
+}
+
+#dropdown{
+  display: none;
 }
 
 @media screen and (max-width: 830px){
@@ -100,26 +96,66 @@ h3{
 
 	#topnav a{
 		font-size: 1.25em;
-	}
+  }
 }
 
-@media screen and (max-width: 615px){
-	#logo{
-		display: none;
-	}
-}
+@media screen and (max-width: 620px){
+	#topnav{
+    display: none;
+  }
 
-@media screen and (max-width: 570px){
-	#topnav a{
-		font-size: 1em;
-		padding: 0.5em;
-	}
-}
+  #dropdown{
+    display:block;
+    top:0;
+    position:fixed;
+    padding-top: 1em;
+    padding: 1.9em;
+    z-index: 1;
+    width: 99.5%;
+    background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
 
-@media screen and (max-width: 390px){
-	#topnav a{
-		padding: 0.25em 0.05em;
-	}
+  }
+
+  #mylinks{
+    display: none;
+  }
+
+  a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+    padding: 1.4em; 
+  }
+  
+  a.logo #logo{
+    position: absolute;
+    top: 0;
+    margin-top: -0.5em;
+  }
+
+  #mylinks{
+    list-style-type: none;
+    padding-left: 1em;
+    margin-bottom: 0;
+  }
+
+  #mylinks li{
+    padding: 0.25em 0;
+    color: white;
+  }
+
+  #mylinks li:hover{
+    background-color: white;
+    color: black;
+  }
+
+  #mylinks a{
+    color: inherit;
+    display: block;
+  }
+
 }
 
 /*home page*/
@@ -428,7 +464,8 @@ ul {
  
   @media screen and (max-width: 600px) {
     .columnStatsBoxes {
-      width: 85%;
+	  width: 85%;
+	  margin-left: 7.5%;
 	  clear: both;
     }
   }
@@ -528,6 +565,7 @@ ul {
   @media screen and (max-width: 770px) {
 	.containerUserRatings{
 		width: 85%;
+		margin-left: 7.5%;
 	}
 
     div.side, div.middle {
@@ -603,6 +641,7 @@ ul {
 		margin-bottom: 2em;
 	}
 }
+
 
 /*Pricing*/
 
@@ -766,4 +805,73 @@ p.aboutus{
 	form.contactus{
 		padding: 0 2em 3em 2em;
 	}
+}
+
+
+
+@media screen and (max-device-width: 770px){
+	#homepage{
+		background-attachment: initial;
+	}
+
+	#statspage{
+		background-attachment: initial;
+	}
+
+	#aboutUs{
+		background-attachment: initial;
+	}
+
+	#contactUs{
+		background-attachment: initial;
+	}
+}
+
+
+@media screen and (max-width: 450px){
+	h1{
+		font-size: 1.5em;
+		padding-top: 3em;
+		margin-left: 1em;
+	}
+
+	#numbers{
+		background-color: white;
+		overflow: auto;
+	}
+	
+	#words{
+	background-color: white;
+	}
+
+	#aboutUs{
+		background-color: white;
+		background-image: none;
+	}
+
+	div.aboutUs{
+		padding-bottom: 0;
+	}
+
+	#contactUs{
+		background-color: white;
+		background-image: none;
+	}
+
+	input[type="text"], textarea{
+		background-color: lightgray;
+	}
+
+	input[type="submit"]{
+		margin: 0;
+	}
+
+	p.aboutUs{
+		text-shadow: none;
+	}
+
+	#numheading, #wordsheading, h1.about, h1.contact, label, p.aboutUs{
+		color: black;
+	}
+
 }
