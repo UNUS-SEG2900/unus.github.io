@@ -652,8 +652,7 @@ ul {
 
 	table{
 		max-width: 90%;
-		margin-left: 5%;
-		//border: 2px solid grey;
+		margin-left: 15%;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
 
@@ -668,7 +667,9 @@ ul {
 		background-color: #f26d00;
 	}
 	
-	#pricing tr:nth-child(even){background-color: #f2f2f2;}
+	#pricing tr:nth-child(even){
+		background-color: #f2f2f2;
+	}
 
 	#upgrade a{
 	  border: 1px solid #f26d00;
@@ -680,7 +681,8 @@ ul {
 	  text-align: center;
 	  text-decoration: none;
 	  display: inline-block;
-	  margin-left: 4.5em;
+	  //margin-left: 55.5em;
+	  margin-left: 15em;
 	  margin-bottom: 1.5em;
 	  font-family: "Arial", sans-serif;
 	}
@@ -691,7 +693,7 @@ ul {
 	  box-shadow: 3px 3px 1px grey;
 	}
 	#cancel{
-	  margin-left: 4.8em;
+	  margin-left: 15em;
 	  margin-top: 2em;
 	}
 	.tableText{
