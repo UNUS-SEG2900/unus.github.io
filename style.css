@@ -646,7 +646,7 @@ ul {
 /*Pricing*/
 
 	table, #pricing th, #pricing td{
-	padding: 0.9em;
+	padding: 1em;
 	border-collapse: collapse;
 	}
 
@@ -684,7 +684,7 @@ ul {
 	  text-align: center;
 	  text-decoration: none;
 	  display: inline-block;
-	  margin-left: 15em;
+	  margin-left: 15%;
 	  margin-bottom: 1.5em;
 	  font-family: "Arial", sans-serif;
 	  background-color: white;
@@ -696,7 +696,7 @@ ul {
 	  box-shadow: 3px 3px 1px #989898;
 	}
 	#cancel{
-	  margin-left: 15em;
+	  margin-left: 15%;
 	  margin-top: 2em;
 	}
 	.tableText{
