@@ -653,7 +653,9 @@ ul.ride-type {
 
 	table{
 		max-width: 90%;
-		margin-left: 15%;
+		position: relative;
+		top: 50%; left: 50%;
+		transform: translate(-50%, 0%);
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
 
@@ -675,6 +677,14 @@ ul.ride-type {
 		background-color: white;
 	}
 
+	#upgrade, .align{
+		width: 53em;
+		max-width: 90%;
+		position: relative;
+		top: 50%; left: 50%;
+		transform: translate(-50%, 0%);
+	}
+
 	#upgrade a{
 	  border: 1px solid #f26d00;
 	  border-radius: 25px;
@@ -685,7 +695,6 @@ ul.ride-type {
 	  text-align: center;
 	  text-decoration: none;
 	  display: inline-block;
-	  margin-left: 15em;
 	  margin-bottom: 1.5em;
 	  font-family: "Arial", sans-serif;
 	  background-color: white;
@@ -697,7 +706,6 @@ ul.ride-type {
 	  box-shadow: 3px 3px 1px #989898;
 	}
 	#cancel{
-	  margin-left: 15em;
 	  margin-top: 2em;
 	}
 	.tableText{
