@@ -670,6 +670,9 @@ ul {
 	#pricing tr:nth-child(even){
 		background-color: #f2f2f2;
 	}
+	#pricing tr:nth-child(odd){
+		background-color: white;
+	}
 
 	#upgrade a{
 	  border: 1px solid #f26d00;
@@ -681,16 +684,16 @@ ul {
 	  text-align: center;
 	  text-decoration: none;
 	  display: inline-block;
-	  //margin-left: 55.5em;
 	  margin-left: 15em;
 	  margin-bottom: 1.5em;
 	  font-family: "Arial", sans-serif;
+	  background-color: white;
 	}
 	#upgrade a:hover{
 	  transition: all .25s ease;
 	  color: white;
 	  background-color: #f26d00;
-	  box-shadow: 3px 3px 1px grey;
+	  box-shadow: 3px 3px 1px #989898;
 	}
 	#cancel{
 	  margin-left: 15em;
@@ -698,6 +701,10 @@ ul {
 	}
 	.tableText{
 	  text-align: center;
+	}
+
+	.pricingColour{
+	  background-color: #f9f9f9;
 	}
 
 /*About us*/
@@ -727,14 +734,14 @@ a{
 
 a.aboutus{
 	border: 1px solid #f26d00;
-	  border-radius: 25px;
-	  color: #f26d00;
-	  font-weight: bold;
+	border-radius: 25px;
+	color: #f26d00;
+	font-weight: bold;
 	font-size: 1em;
-	  padding: 0.8em 1.6em;
-	  text-align: center;
-	  text-decoration: none;
-	  display: inline-block;
+	padding: 0.8em 1.6em;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
 	font-family: "Arial", sans-serif;
 	background-color: white;
 }
