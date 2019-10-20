@@ -684,7 +684,7 @@ ul {
 	  text-align: center;
 	  text-decoration: none;
 	  display: inline-block;
-	  margin-left: 15%;
+	  margin-left: 15em;
 	  margin-bottom: 1.5em;
 	  font-family: "Arial", sans-serif;
 	  background-color: white;
@@ -696,7 +696,7 @@ ul {
 	  box-shadow: 3px 3px 1px #989898;
 	}
 	#cancel{
-	  margin-left: 15%;
+	  margin-left: 15em;
 	  margin-top: 2em;
 	}
 	.tableText{
