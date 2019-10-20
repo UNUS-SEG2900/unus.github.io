@@ -250,22 +250,92 @@ i.arrow {
 	}
 }
 
-/* FEATURES CSS /*
+/* FEATURES CSS */
+
+.features-background {
+    background-color: white;
+    padding-bottom: 3.25em;
+}
+
+/* Title container */
+    .title-container {
+	text-align: center;
+	background-color: gray;
+	height: 1.5em;
+	padding-top: 1.2em;
+	padding-bottom: 1.2em;
+    height: 6em;
+    border-radius: 20px 20px 0 0;
+}
+
+/* Titles */
+.title {
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    padding: 0.5em;
+    padding-bottom: 0em ;
+	margin: 0 0.05em;
+	display: inline-block;
+	border-bottom: 0.2em solid transparent;
+    transition: border-bottom .5s, color .5s, font-weight .5s;
+    color: lightgray;
+}
+
+.title:hover{
+	border-bottom: 0.2em solid #f26d00;
+	color: white;
+}
+
+.active {
+	border-bottom: 0.2em solid #f26d00;
+    color: white;
+    font-weight: bold;
+}
+
 /* Slideshow container */
 .slideshow-container {
 	position: relative;
 	background: lightgray;
-  height: 20em;
-  border-radius: 0 0 20px 20px;
+    height: 25em;
+    border-radius: 0 0 20px 20px;
 }
 
-  /* Slides */
+/* Slides */
 .Slides {
 	display: none;
 	text-align: center;
+	padding-top: 1em;
 }
 
-  /* Next & previous buttons */
+h2.feat-title {
+	color: #f26d00;
+	font-size: 2em;
+	font-weight: normal;
+	font-family: 'Montserrat', sans-serif;
+	border-left: none;
+	margin: 0.8em
+}
+
+.feat-desc {
+    padding: 0 4em;
+    font-size: 1.5em;
+}
+
+.feat-desc-small {
+    padding: 0 3em;
+    font-size: 1em;
+}
+
+ul {
+    font-size: 1.5em;
+}
+
+ul.ride-type {
+	list-style-type: none;
+}
+
+/* Next & previous buttons */
 .prev-slide, .next-slide {
 	cursor: pointer;
 	position: absolute;
@@ -280,84 +350,15 @@ i.arrow {
 	user-select: none;
 }
 
-  /* Position the "next button" to the right */
 .next-slide {
 	position: absolute;
 	right: 0;
 	border-radius: 3px 0 0 3px;
 }
 
-  /* On hover, add a black background color with a little bit see-through */
 .prev-slide:hover, .next-slide:hover {
-  background-color: gray;
-  color: white;
-}
-
-  /* The title container */
-.title-container {
-	text-align: center;
-	background-color: gray;
-	height: 1.5em;
-	padding-top: 1.2em;
-  padding-bottom: 1.2em;
-  height: 6em;
-  border-radius: 20px 20px 0 0;
-}
-
-  /* The titles */
-.title {
-  cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2em;
-  padding: 0.5em;
-  padding-bottom: 0em ;
-	margin: 0 0.05em;
-	display: inline-block;
-	border-bottom: 0.2em solid transparent;
-  transition: border-bottom .5s, color .5s, font-weight .5s;
-  color: lightgray;
-}
-
-.title:hover{
-	border-bottom: 0.2em solid #f26d00;
-	color: white;
-}
-
-.active {
-	border-bottom: 0.2em solid #f26d00;
-  color: white;
-  font-weight: bold;
-}
-
-h2.feat-title {
-  color: #f26d00;
-  font-size: 2em;
-	font-weight: normal;
-	font-family: 'Montserrat', sans-serif;
-  border-left: none;
-  margin: 0.8em
-}
-
-ul.ride-type {
-	list-style-type: none;
-}
-
-.features-background {
-  background-color: white;
-  padding-bottom: 3.25em;
-}
-
-ul {
-  font-size: 1.5em;
-}
-
-.feat-desc {
-  padding: 0 4em;
-  font-size: 1.5em;
-}
-.feat-desc-small {
-  padding: 0 3em;
-  font-size: 1em;
+    background-color: gray;
+    color: white;
 }
 
 @media screen and (max-width: 1025px){
