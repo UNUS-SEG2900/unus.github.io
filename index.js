@@ -1,5 +1,5 @@
 function inititalizeFeature() {
-  var slideIndex = 1
+  var slideIndex = 2
   currentSlide(slideIndex);
 }
 
@@ -18,13 +18,51 @@ function showSlides(n) {
   if (n > slides.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+      slides[i].style.display = "none";
   }
   for (i = 0; i < titles.length; i++) {
       titles[i].className = titles[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";  
   titles[slideIndex-1].className += " active";
+  if (slideIndex == 1) {miRouteFill()}
+  else if (slideIndex == 2) {miServiceFill()}
+  else if (slideIndex == 3) {miCarpoolFill()}
+}
+
+function miRouteFill() {
+  //change miRoute to filled
+  var miRouteOutline = document.getElementById("miRouteOutline")
+  if (miRouteOutline !== null) {miRouteOutline.id = "miRouteFilled"};
+
+  //change other two to outline
+  var miServiceFilled = document.getElementById("miServiceFilled")
+  if (miServiceFilled !== null) {miServiceFilled.id = "miServiceOutline"};
+  var miCarpoolFilled = document.getElementById("miCarpoolFilled")
+  if (miCarpoolFilled !== null) {miCarpoolFilled.id = "miCarpoolOutline"};
+}
+
+function miServiceFill() {
+  //change miService to filled
+  var miServiceOutline = document.getElementById("miServiceOutline")
+  if (miServiceOutline !== null) {miServiceOutline.id = "miServiceFilled"};
+
+  //change other two to outline
+  var miRouteFilled = document.getElementById("miRouteFilled")
+  if (miRouteFilled !== null) {miRouteFilled.id = "miRouteOutline"};
+  var miCarpoolFilled = document.getElementById("miCarpoolFilled")
+  if (miCarpoolFilled !== null) {miCarpoolFilled.id = "miCarpoolOutline"};
+}
+
+function miCarpoolFill() {
+  var miCarpoolOutline = document.getElementById("miCarpoolOutline")
+  if (miCarpoolOutline !== null) {miCarpoolOutline.id = "miCarpoolFilled"};
+
+  //change other two to outline
+  var miServiceFilled = document.getElementById("miServiceFilled")
+  if (miServiceFilled !== null) {miServiceFilled.id = "miServiceOutline"};
+  var miRouteFilled = document.getElementById("miRouteFilled")
+  if (miRouteFilled !== null) {miRouteFilled.id = "miRouteOutline"};
 }
 
 function formConfirm(){

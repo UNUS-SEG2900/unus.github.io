@@ -68,27 +68,25 @@
         </div>
 
         <div class="title-container">
-            <span class="title" onclick="currentSlide(1)">miService</span>
-            <span class="title" onclick="currentSlide(2)">miRoute</span>
-            <span class="title" onclick="currentSlide(3)">miCarpool</span>
+            <span class="title" onclick="currentSlide(1); miRouteFill()">
+                <img class="icon" id="miRouteOutline" width="150px" height="150px"></br>
+                miRoute
+            </span>
+            <span class="title" onclick="currentSlide(2); miServiceFill()">
+                <img class="icon" id="miServiceOutline" width="150px" height="150px"></br>
+                miService
+            </span>
+            <span class="title" onclick="currentSlide(3); miCarpoolFill()">
+                <img class="icon" id="miCarpoolOutline" width="150px" height="150px"></br>
+                miCarpool
+            </span>
         </div>
 
         <div class="slideshow-container">
-            <div class="Slides">
-                <h2 class="feat-title" >miService</h2>
+            <div class="slides">
+                <!--<h2 class="feat-title" >miRoute</h2>-->
                 <p class="feat-desc">
-                    Find the right service for the right price every time with miService!</br>
-                    Using our custom algorithm, miRide scans the ride service apps
-                    that you already have downloaded on your phone to ensure the best
-                    price and the shortest wait times.</br> Flipping through apps is a thing
-                    of the past thanks to miRide!
-                </p>
-            </div>
-
-            <div class="Slides">
-                <h2 class="feat-title" >miRoute</h2>
-                <p class="feat-desc">
-                    Plan ahead for any trip using miRoute!</br> Choose from a variety of ways
+                    Plan ahead for any trip using miRoute!</br></br> Choose from a variety of ways
                     to get around based on your preferences including:
                 </p>
                 <ul class="ride-type">
@@ -102,13 +100,24 @@
                 </p>
             </div>
 
-            <div class="Slides">
-                <h2 class="feat-title" >miCarpool</h2>
+            <div class="slides">
+                <!--<h2 class="feat-title" >miService</h2>-->
+                <p class="feat-desc">
+                    Find the right service for the right price every time with miService!</br></br>
+                    Using our custom algorithm, miRide scans the ride service apps
+                    that you already have downloaded on your phone to ensure the best
+                    price and the shortest wait times.</br></br> Flipping through apps is a thing
+                    of the past thanks to miRide!
+                </p>
+            </div>
+
+            <div class="slides">
+                <!--<h2 class="feat-title" >miCarpool</h2>-->
                 <p class="feat-desc">
                     Whether you want to save the planet or save your wallet, miCarpool
-                    is the perfect solution.</br> By connecting drivers to passengers, miCarpool
-                    provides an easy way to share a ride with your peers.</br> Just post where
-                    you're going, when you're leaving, and how much room you have to get
+                    is the perfect solution.</br></br> By connecting drivers to passengers, miCarpool
+                    provides an easy way to share a ride with your peers.</br></br> Just post <i>where
+                    you're going</i>, <i>when you're leaving</i>, and <i>how much room you have</i> to get
                     matched up with the perfect passengers.
                 </p>
             </div>
