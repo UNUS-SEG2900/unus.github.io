@@ -120,7 +120,7 @@ h3{
     display: none;
   }
 
-  a.icon {
+  a.dropDown {
     display: block;
     position: absolute;
     right: 0;
@@ -361,6 +361,7 @@ h2.feat-title {
 
 ul.ride-type {
 	list-style-type: none;
+	padding: 0;
 }
 
 ul {
@@ -405,13 +406,28 @@ ul {
 	}
 }
 
+@media screen and (max-width: 690px){
+	img.icon{
+		width: 3.75em;
+		height: auto;
+	}
+
+	.title-container{
+		height: 10em;
+	}
+
+	span.title{
+		margin: 0 0.75em;
+	}
+}
+
 @media screen and (max-width: 550px){
 	.title{
 		font-size: 1em;
 	}
 
 	.title-container{
-		height: 4.5em;
+		height: 6em;
 	}
 	
 	p.feat-desc{
