@@ -1021,3 +1021,13 @@ h1.tc-Title {
 #email-link {
 	color: #f26d00;
 }
+
+@media screen and (max-width: 450px){
+	h1.tc-Title {
+		font-size: 2.5em;
+	}
+	.tcContent {
+		padding: 1em;
+		padding-top: 2.5em;
+	}
+}
